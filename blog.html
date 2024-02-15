@@ -1,105 +1,49 @@
 <!DOCTYPE html>
 <html lang="en-US">
-
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <title>Mortgages</title>
-                    <link rel="canonical" href="index.html" />
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <title>Mortgages</title>
+                    <link rel="canonical" href="blog.html" />
                    
-    <meta name="description" content="" />
-    <meta name="keywords" content="Mortgages" />
-    <link rel="icon" href="favicon.png" type="image/x-icon" />
-    <!-- Font Awesome icons (free version)-->
-    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=62dc22846895ac00191ea9d1&product=inline-share-buttons" async="async"></script>
+        <meta name="description" content="" />
+        <meta name="keywords" content="Mortgages" />
+        <link rel="icon" href="favicon.png" type="image/x-icon" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=62dc22846895ac00191ea9d1&product=inline-share-buttons" async="async"></script>
 
-    <!-- Simple line icons-->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" rel="stylesheet" />
-    <!-- Google fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
+        <!-- Simple line icons-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" rel="stylesheet" />
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
 
-    <!-- Favicon-->
-    <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="home/css/styles.css" rel="stylesheet" /> 
-    <style>
-        .bg-header {
-            background-color: rgba(0, 0, 0, 0.6) !important;
-        }
+        <!-- Favicon-->
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="home/css/styles.css" rel="stylesheet" />
+        
+        <style>
+            .bg-header {
+                --bs-bg-opacity: 1;
 
-        .bg-footer {
-            --bs-bg-opacity: 1;
-            background-image: linear-gradient( #000000, #000000) !important;
-        }
-
-        .header-text-color {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.6),#000000) !important;
+            }
+            .bg-footer {
+                --bs-bg-opacity: 1;
+            background-image: linear-gradient(#000000,#000000) !important;
+            }
+            .header-text-color{
+            color: #ffffff;
+            }
+            .footer-text-color{
             color: #ffffff ;
-        }
-
-        .footer-text-color {
-            color: #ffffff ;
-        }
-
-        .footer-text-color .navbar-brand {
-            color: #ffffff ;
-        }
-
-        .navbar-nav .active {
-            border-bottom: solid 1px #ffffff !important;
-        }
-
-        .top-area {
-            position: relative;
-            opacity: 1;
-            height: 400px;
-            /* background-color: rgba(0, 0, 0, 0.5) !important; */
-        }
-
-        .transparent-layer {
-            position: absolute;
-            display: block;
-            position: absolute;
-            left: 0;
-            top: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(0, 0, 0, 0.5) !important;
-        }
-
-        .top-area::before {
-            content: ' ';
-            display: block;
-            position: absolute;
-            left: 0;
-            top: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(0, 0, 0, 0.5);
-            background-image: url(banner_image.png);
-            background-repeat: no-repeat;
-            background-position: 50% 0;
-            background-size: cover;
-        }
-
-        .top-area>div {
-            position: relative;
-        }
-
-        .head-title {
-            font-size: calc(1.75rem + 1.5vw);
-            font-weight: bolder;
-            color: #fff;
-        }
-
-        .head-tagline {
-            font-size: calc(.5rem + 1.5vw);
-            color: #fff;
-        }
-
-        .header-contents {
-            margin: 0 auto;
-            text-align: center;
-        }
+            }
+            .footer-text-color .navbar-brand{
+            color: #ffffff;
+            }
+            .navbar-nav .active {
+                border-bottom: solid 1px #ffffff !important;
+            }
 body {
                     background-color: #292921;
                 }
@@ -249,17 +193,14 @@ body {
                 .article-info {
                     color: #bbbbbb;
                 }
-    </style>
-</head>
-
-<body>
-<!-- Responsive navbar-->
-<div class="top-area">
-    <div class="transparent-layer">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-header">
+        </style>
+    </head>
+    <body>
+        <!-- Responsive navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container px-5">
                 <a style="color: inherit; text-decoration: inherit;" href="index.html">
-                        <span class="navbar-brand">
+                    <span class="navbar-brand" >
                         <img style="max-height:30px; height: 30px !important; display: inherit " src="logo.png" onerror="this.remove()">
                     </span>
                     <span class="navbar-brand header-text-color">local-alt</span>
@@ -267,23 +208,23 @@ body {
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto  mb-2 mb-lg-0">
-                        <li class="nav-item active">
+                        <li class="nav-item {{home_active}}">
                             <a class="nav-link header-text-color" href="index.html">Home</a>
                         </li>
                         <div class="nav-item {{service_active}} dropdown">
                             <button class="header-text-color dropbtn is-mobile">Services</button>
                             <a class="nav-link header-text-color dropbtn is-desktop" href="services.html">Services</a>
                             <div class="dropdown-content">
-                                <div class="dropdown-content2">
-                                    <li class="menu-item current-menu-item current_page_item"><a class="bd_left"
+                               <div class="dropdown-content2">
+                                  <li class="menu-item current-menu-item current_page_item"><a class="bd_left"
                                                                                         href="personal-loans.html">Personal Loans
                                                                                         <span class="border-menu"></span></a></li><li class="menu-item current-menu-item current_page_item"><a class="bd_left"
                                                                                         href="mortgages.html">Mortgages
                                                                                         <span class="border-menu"></span></a></li>
-                                </div>
+                               </div>
                             </div>
                         </div>
-                        <li class="nav-item {{blog_active}}">
+                        <li class="nav-item active">
                             <a class="nav-link header-text-color" href="blog.html">Blog</a>
                         </li>
                         <li class="nav-item {{contact_active}}" style="display: none">
@@ -320,194 +261,19 @@ body {
                 </div>
             </div>
         </nav>
-
         
 
-        <!-- Heading Row-->
-        <div class="gx-0 align-items-center py-lg-6">
-            <div class="header-contents">
-                <h1 class="head-title">local-alt</h1>
-                <h4 class="head-tagline"></h4>
-            </div>
-            <div class="header-contents">
-                <a class="btn btn-banner-theme btn-md mt-2" style="display: none" target="_blank" href="tel:">Call Now</a>
-                <a class="btn btn-banner-theme btn-md mt-2" style="display: none" target="_blank" href="mailto:">Email Now</a>
-                <button id="myBtn" class="btn btn-banner-theme btn-md mt-2" style="display: none">Get Directions</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-<div class="container article-container">
-<header class="py-2 border-bottom mb-4" style="display: none">
-            <div class="ql-editor p-4 article-card-text" id="sitewide-header">
+        <div class="container px-4 px-lg-5 article-container">
+        <header class="py-2 border-bottom mb-4" style="display: none">
+            <div class="ql-editor p-4 article-card-text" id="sitewide-header" >
                 
             </div>
         </header>
-<div class="py-2 border-bottom mb-2" style="display: none">
-        <div class="ql-editor article-card-text">
-            
-        </div>
-    </div>
-
-    <div class="row gx-4 gx-lg-5 align-items-center pt-lg-5 card-text" style=" display: none ">
-        <div class="col-lg-3">
-            <h2 class="font-weight-light">Working Hours</h2>
-        </div>
-        <div class="col-lg-5">
-            <h5>Today: <span class=" today_hours main-heading">09:00 AM - 06:00 PM</span></h5>
-        </div>
-    </div>
-    <div class="row gx-4 gx-lg-5 align-items-center card-text py-lg-4" style=" display: none ">
-        <div class="col-lg-4">
-            <table width="100%">
-                <tr>
-                    <td width="30%">
-                        <h5 class="text-gray">Mon:</h5>
-                    </td>
-                    <td>
-                        <h5 class="working_hours">09:00 AM - 06:00 PM</h5>
-                    </td>
-                </tr>
-            </table>
-        </div>
-        <div class="col-lg-4">
-            <table width="100%">
-                <tr>
-                    <td width="30%">
-                        <h5 class="text-gray">Tue:</h5>
-                    </td>
-                    <td>
-                        <h5 class="working_hours">09:00 AM - 06:00 PM</h5>
-                    </td>
-                </tr>
-            </table>
-        </div>
-        <div class="col-lg-4">
-            <table width="100%">
-                <tr>
-                    <td width="30%">
-                        <h5 class="text-gray">Wed:</h5>
-                    </td>
-                    <td>
-                        <h5 class="working_hours">09:00 AM - 06:00 PM</h5>
-                    </td>
-                </tr>
-            </table>
-        </div>
-        <div class="col-lg-4">
-            <table width="100%">
-                <tr>
-                    <td width="30%">
-                        <h5 class="text-gray">Thur:</h5>
-                    </td>
-                    <td>
-                        <h5 class="working_hours">09:00 AM - 06:00 PM</h5>
-                    </td>
-                </tr>
-            </table>
-        </div>
-        <div class="col-lg-4">
-            <table width="100%">
-                <tr>
-                    <td width="30%">
-                        <h5 class="text-gray">Fri:</h5>
-                    </td>
-                    <td>
-                        <h5 class="working_hours">09:00 AM - 06:00 PM</h5>
-                    </td>
-                </tr>
-            </table>
-        </div>
-        <div class="col-lg-4">
-            <table width="100%">
-                <tr>
-                    <td width="30%">
-                        <h5 class="text-gray">Sat:</h5>
-                    </td>
-                    <td>
-                        <h5 class="working_hours">09:00 AM - 06:00 PM</h5>
-                    </td>
-                </tr>
-            </table>
-        </div>
-        <div class="col-lg-4">
-            <table width="100%">
-                <tr>
-                    <td width="30%">
-                        <h5 class="text-gray">Sun:</h5>
-                    </td>
-                    <td>
-                        <h5 class="working_hours">Close</h5>
-                    </td>
-                </tr>
-            </table>
-        </div>
-    </div>
-
-    
-
-    <div class="row gx-4 gx-lg-5 align-items-center py-lg-5">
-        <div class="col-lg-12 py-lg-2">
-            <h3 class="font-weight-light main-heading">Services Offered By local-alt</h3>
-        </div>
-
-        <div class="col-lg-4">
-                <a href="personal-loans.html"  style="text-decoration: none;color: inherit;" >
-                    <img class="img-fluid rounded mb-4 mb-lg-0" src="personal-loans-134245.jpg?key=jtwXiF" alt="..." />
-                </a>
-            </div>
-                <div class="col-lg-8">
-                    <a href="personal-loans.html"  style="text-decoration: none;color: inherit;">
-                        <div class="d-flex align-items-center title-box">
-                            <h2 class="card-title">Personal Loans</h2>
-                        </div>
-                        <p class="card-text py-lg-2">Local-Alt provides exceptional service when it comes to offering personal loans. They understand that individuals often encounter unforeseen financial emergencies or need extra funds to fulfill personal goals. With Local-Alt, acquiring a personal loa......
-                            <a href="personal-loans.html" class="text-theme">Read More</a>
-                        </p>
-
-                    </a>
-                </div>
-                <div class="col-md-12">
-                    <hr/>
-                </div><div class="col-lg-4">
-                <a href="mortgages.html"  style="text-decoration: none;color: inherit;" >
-                    <img class="img-fluid rounded mb-4 mb-lg-0" src="mortgages-134244.jpg?key=3xKiKJ" alt="..." />
-                </a>
-            </div>
-                <div class="col-lg-8">
-                    <a href="mortgages.html"  style="text-decoration: none;color: inherit;">
-                        <div class="d-flex align-items-center title-box">
-                            <h2 class="card-title">Mortgages</h2>
-                        </div>
-                        <p class="card-text py-lg-2">Local-Alt provides exceptional service in the area of Mortgages. As an expert in the field, Local-Alt is committed to offering top-notch assistance to clients seeking mortgage solutions. They understand the importance of clear communication and ensur......
-                            <a href="mortgages.html" class="text-theme">Read More</a>
-                        </p>
-
-                    </a>
-                </div>
-                <div class="col-md-12">
-                    <hr/>
-                </div>
-
-        <div class="col-md-12">
-            <a href="services.html" style="text-decoration: none">
-                <div class="all-article-link" style="padding-top:20px;padding-bottom:20px;border: 1px solid #bdbdbd; border-radius: 3px; height: 70px; text-align:center">
-                    <h4 class="">View All Services</h4>
-                </div>
-            </a>
-        </div>
-    </div>
-
-
-    <div class="row gx-4 gx-lg-5 align-items-center py-lg-5 cards-container">
-        <div class="col-lg-12 py-lg-2">
-            <h3 class="font-weight-light main-heading">local-alt: Latest Blog Posts</h3>
-        </div>
-
-
-        <div class="col-md-6 mb-5">
+        <div class="row gx-4 gx-lg-5 align-items-center py-lg-5 cards-container article-card-text">
+            <!-- Heading Row-->
+             <div class="col-lg-12 py-lg-2">
+                    <h3 class="main-heading">local-alt: Latest Blog Posts</h3>
+                </div><div class="col-md-6 mb-5">
                     <div class="card h-100">
                         <div class="card-body">
                         <a href="what-is-the-interest-rate-to-buy-a-house-in-colorado.html" style="text-decoration: none;color: inherit;">
@@ -587,147 +353,203 @@ body {
                            </a>
                         </div>
                     </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="which-bank-gives-you-loan-easily.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2024-02-15</span>
+                                <span class="article-info" style="display: none"><i class="fa fa-user" style="padding-right: 10px"></i></span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">Which bank gives you loan easily?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Want to secure a loan from a bank without any hassle? Well, the secret lies in understanding what banks are looking for and preparing all the necessary documents in advance. Firstly, it's important to have a good credit history. Banks typically prefe......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="which-bank-gives-you-loan-easily.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="which-is-the-best-bank-for-personal-loans-in-usa.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2024-02-15</span>
+                                <span class="article-info" style="display: none"><i class="fa fa-user" style="padding-right: 10px"></i></span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">Which is the best bank for personal loans in USA?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">When it comes to evaluating the top banks for personal loans in the USA, several factors need to be taken into consideration. One of the key factors to consider is the bank's interest rates. Some banks offer lower interest rates than others, which ca......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="which-is-the-best-bank-for-personal-loans-in-usa.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="what-is-the-easiest-company-to-get-a-personal-loan.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2024-02-15</span>
+                                <span class="article-info" style="display: none"><i class="fa fa-user" style="padding-right: 10px"></i></span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">What is the easiest company to get a personal loan?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">Unlocking the Doors to Hassle-Free Personal Loans<br/><br/>A personal loan can provide the financial flexibility needed to meet various expenses, whether it's consolidating debt or funding a major purchase. However, the process of obtaining a persona......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="what-is-the-easiest-company-to-get-a-personal-loan.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
+                </div><div class="col-md-6 mb-5">
+                    <div class="card h-100">
+                        <div class="card-body">
+                        <a href="what-is-the-easiest-loan-to-get-approved-for-in-usa.html" style="text-decoration: none;color: inherit;">
+                            <div class="py-lg-2" style="display: {{show_date_auth_section}}">
+                                <span class="article-info" style="padding-right: 30px; display: inline"><i class="fa fa-calendar" style="padding-right: 10px"></i>2024-02-15</span>
+                                <span class="article-info" style="display: none"><i class="fa fa-user" style="padding-right: 10px"></i></span>
+                            </div>
+                             <div class="d-flex align-items-center title-box ">
+                                <h2 class="card-title">What is the easiest loan to get approved for in USA?</h2>
+                            </div>
+                            <p class="card-text py-lg-2">When it comes to obtaining a loan in the United States, certain options are more accessible than others. These loan options typically have lower eligibility requirements, making them ideal for individuals with less-than-perfect credit or limited fina......</p>
+                            <div style="float: right">
+                                <a class="btn btn-theme btn-sm" href="what-is-the-easiest-loan-to-get-approved-for-in-usa.html">
+                                    <span style="padding-right: 10px">Read More</span><i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                           </a>
+                        </div>
+                    </div>
                 </div>
-        <div class="col-md-12">
-            <a href="blog.html" style="text-decoration: none">
-                <div class="all-article-link" style="padding-top:20px;padding-bottom:20px;border: 1px solid #bdbdbd; border-radius: 3px; height: 70px; text-align:center">
-                    <h4 class="">View All Blog Posts</h4>
-                </div>
-            </a>
         </div>
-    </div>
-
-    <div class="ql-editor mb-4 article-card-text" style="display:none">
-        
-    </div>
-    <div class="pb-5 ql-editor article-card-text" id="sitewide-footer" style="display:none">
-        
-    </div>
-    <div id="myModal" class="modal">
-        <div class="modal-content">
-            <span class="close">&times;</span>
-            <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px; display: none">
-                <iframe src="" frameborder="0" style="border:0; " allowfullscreen></iframe>
+        <div class="">
+            <div>
+                
             </div>
+        </div>
+        <div class="pb-5 ql-editor article-card-text" id="sitewide-footer" style="display:none">
             
         </div>
-    </div>
-</div>
-
-
-
-<!-- Footer-->
-
-<footer class="py-5 bg-dark text-center ">
-
-    <div class="container">
-        <div class="row  py-lg-3">
-            <div class="col-md-7">
-                <table style="text-align: left">
-                    <tr>
-                        <td width="15%">
-                            <h2>
-                                <a style="color: inherit;text-decoration: auto;" href="index.html"><img style="max-height:30px; height: 30px !important; display: inherit " src="logo.png" onerror="this.remove()"></a>
-                            </h2>
-                        </td>
-                        <td style="text-align: left" class="">
-                            <h2><a style="text-decoration: auto;" href="index.html">local-alt</a></h2>
-                        </td>
-                    </tr>
-                    <tr style="display: none">
-                        <td width="15%"><i class="fa fa-map-marker-alt "></i></td>
-                        <td style="text-align: left" class=""></td>
-                    </tr>
-                    <tr style="display: none">
-                        <td width="15%"><i class="fa fa-phone "></i></td>
-                        <td style="text-align: left" class=" "></td>
-                    </tr>
-                    <tr style="display: none">
-                        <td width="15%"><i class="fa fa-envelope"></i></td>
-                        <td style="text-align: left" class=""></td>
-                    </tr>
-                </table>
-
-            </div>
-
-
-            <div class="col-md-4">
-                <table class="float-start float-md-end" style="margin-left: 40px;">
-                    <tr>
-                        <td style="text-align: left;display: inherit"><a class="" style="text-decoration: none" href="terms.html">Terms of Use</a></td>
-                    </tr>
-
-                    <tr>
-                        <td style="text-align: left;display: inherit"><a class="" style="text-decoration: none" href="privacy.html">Privacy Policy</a></td>
-                    </tr>
-                    <tr>
-                        <td style="text-align: left;display: none"><a class="" style="text-decoration: none" href="sitemap.html">Sitemap</a></td>
-                    </tr>
-                    <tr>
-                        <td style="text-align: left;display: none"><a class="" style="text-decoration: none" href="contact.html">Contact Us</a></td>
-                    </tr>
-                </table>
-
-            </div>
         </div>
-    </div>
+        </div>
 
-    <ul class="mt-3 mb-3" style="display: inherit">
-        <li class="list-inline-item" style="display: none">
-            <a style="text-decoration: none" class=" mr-3" target="_blank" href=""><i class="fa-2x icon-social-facebook"></i></a>
-        </li>
-        <li class="list-inline-item" style="display: none">
-            <a style="text-decoration: none" class=" mr-3" target="_blank" href=""><i class="fa-2x icon-social-twitter"></i></a>
-        </li>
-        <li class="list-inline-item" style="display: none">
-            <a style="text-decoration: none" class="   mr-3" target="_blank" href=""><i class="fa-2x icon-social-instagram"></i></a>
-        </li>
-        <li class="list-inline-item" style="display: none">
-            <a style="text-decoration: none" class=" mr-3" target="_blank" href=""><i class="fa-2x icon-social-pinterest"></i></a>
-        </li>
-        <li class="list-inline-item" style="display: none">
-            <a style="text-decoration: none" class="  mr-3" target="_blank" href=""><i class="fa-2x icon-social-youtube"></i></a>
-        </li>
-    </ul>
+        <!-- Footer-->
 
-    <div class="">
-        <hr/>
-    </div>
-    <div class="container">
-        <p class="m-0 text-center ">Copyright &copy; local-alt. All Rights Reserved.</p>
-    </div>
-</footer>
-<!-- Bootstrap core JS-->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-<!-- Core theme JS-->
-<script src="home/js/scripts.js"></script>
-<script>
-    // Get the modal
-    var modal = document.getElementById("myModal");
+        <footer class="py-5 bg-dark text-center ">
 
-    // Get the button that opens the modal
-    var btn = document.getElementById("myBtn");
+            <div class="container">
+            <div class="row  py-lg-3" >
+                <div class="col-md-7">
+                    <table style="text-align: left">
+                        <tr>
+                            <td width="15%"><h2><a style="color: inherit;text-decoration: auto;" href="index.html"><img style="max-height:30px; height: 30px !important; display: inherit " src="logo.png" onerror="this.remove()"></a></h2></td>
+                            <td style="text-align: left" class=""><h2><a style="text-decoration: auto;" href="index.html">local-alt</a></h2></td>
+                        </tr>
+                        <tr style="display: none">
+                            <td width="15%"><i class="fa fa-map-marker-alt footer-text-color"></i></td>
+                            <td style="text-align: left" class=""></td>
+                        </tr>
+                        <tr style="display: none">
+                            <td width="15%"><i class="fa fa-phone footer-text-color"></i></td>
+                            <td style="text-align: left" class=" "></td>
+                        </tr>
+                        <tr style="display: none">
+                            <td width="15%"><i class="fa fa-envelope footer-text-color"></i></td>
+                            <td style="text-align: left" class=""></td>
+                        </tr>
+                    </table>
 
-    // Get the <span> element that closes the modal
-    var span = document.getElementsByClassName("close")[0];
+                </div>
 
-    // When the user clicks the button, open the modal
-    btn.onclick = function() {
+
+                    <div class="col-md-4">
+                    <table class="float-start float-md-end" style="margin-left: 40px;">
+                        <tr>
+                            <td style="text-align: left;display: inherit"><a class="" style="text-decoration: none" href="terms.html">Terms of Use</a></td>
+                        </tr>
+
+                        <tr>
+                            <td style="text-align: left;display: inherit"><a class="" style="text-decoration: none" href="privacy.html">Privacy Policy</a></td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;display: none"><a class="" style="text-decoration: none" href="sitemap.html">Sitemap</a></td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: left;display: none"><a class="" style="text-decoration: none" href="contact.html">Contact Us</a></td>
+                        </tr>
+                    </table>
+
+                </div>
+            </div>
+            </div>
+
+            <ul class="mt-3 mb-3" style="display: inherit">
+                <li class="list-inline-item" style="display: none">
+                    <a  style="text-decoration: none" class="  mr-3" target="_blank"  href=""><i class="fa-2x icon-social-facebook"></i></a>
+                </li>
+                <li class="list-inline-item"  style="display: none">
+                    <a  style="text-decoration: none" class="  mr-3" target="_blank"  href=""><i class="fa-2x icon-social-twitter"></i></a>
+                </li>
+                <li class="list-inline-item"  style="display: none">
+                    <a  style="text-decoration: none" class="  mr-3" target="_blank"  href=""><i class="fa-2x icon-social-instagram"></i></a>
+                </li>
+                <li class="list-inline-item"  style="display: none">
+                    <a  style="text-decoration: none" class="  mr-3" target="_blank"  href=""><i class="fa-2x icon-social-pinterest"></i></a>
+                </li>
+                <li class="list-inline-item"  style="display: none">
+                    <a  style="text-decoration: none" class=" mr-3" target="_blank"  href=""><i class="fa-2x icon-social-youtube"></i></a>
+                </li>
+            </ul>
+
+            <div class="">
+            <hr/>
+            </div>
+            <div class="container"><p class="m-0 text-center ">Copyright &copy; local-alt. All Rights Reserved.</p></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="home/js/scripts.js"></script>
+        <script>
+      // Get the modal
+      var modal = document.getElementById("myModal");
+
+      // Get the button that opens the modal
+      var btn = document.getElementById("myBtn");
+
+      // Get the <span> element that closes the modal
+      var span = document.getElementsByClassName("close")[0];
+
+      // When the user clicks the button, open the modal
+      btn.onclick = function() {
         modal.style.display = "block";
-    }
+      }
 
-    // When the user clicks on <span> (x), close the modal
-    span.onclick = function() {
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function() {
         modal.style.display = "none";
-    }
+      }
 
-    // When the user clicks anywhere outside of the modal, close it
-    window.onclick = function(event) {
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function(event) {
         if (event.target == modal) {
-            modal.style.display = "none";
+          modal.style.display = "none";
         }
-    }
-</script>
+      }
+    </script>
 <script>
     const url = window.location.href;
     let domain = (new URL(url));
@@ -743,5 +565,4 @@ body {
     document.querySelectorAll('[rel="canonical"]')[0].setAttribute('href', domain_url);
 </script>
 </body>
-
 </html>
